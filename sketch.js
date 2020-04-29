@@ -56,6 +56,7 @@ function draw(){
 
 function spawnHurdles(y){
   for (var i = 1500; i<4500; i+=500){
-    hurdle = createSprite(i,y,30,70);
+    hurdle = createSprite(i,y,20,70);
+    hurdle.shapeColor = "purple";
   }
 }
